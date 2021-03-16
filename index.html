@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/content.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="highlight">Andrea Rosales</h1>
+      <nav>
+        <ul class="highlight">
+          <li>
+            <a href="#">Projects</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="projects">
+        <h2 class="highlight">My Projects</h2>
+        <article>
+          <img src="assets/html_css.jpg" alt="HTML and CSS" />
+          <div class="description">
+            <h3>First Bootcamp Session</h3>
+            <p>On March 27th, I learned about Semantic HTML and CSS Layout</p>
+          </div>
+        </article>
+        <article>
+          <img src="assets/flexbox.png" alt="HTML and CSS" />
+          <div class="description">
+            <h3>Second Bootcamp Session</h3>
+            <p>On April 3rd, I learned more layout techniques, Flexbox and CSS Grid</p>
+          </div>
+        </article>
+        <article>
+          <img src="assets/storybook.png" alt="HTML and CSS" />
+          <div class="description">
+            <h3>Third Bootcamp Session</h3>
+            <p>On April 17th, I became a CSS Pro by learning atomic design, storybook and design tokens</p>
+          </div>
+        </article>
+      </section>
+      <section>
+        <h2 class="highlight">Contact</h2>
+        <form>
+          <label class="highlight" for="contact_name">
+            Name
+          </label>
+          <input type="text" id="contact_name" />
+
+          <label class="highlight" for="contact_email">
+            Email
+          </label>
+          <input type="email" id="contact_email" />
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <span>Made with love for CSS Conf</span>
+      <div class="social">
+        <img src="assets/instagram_logo.png" alt="Instagram logo" />
+        <a href="https://www.instagram.com/cssconfco/" target="_blank">Instagram</a>
+      </div>
+    </footer>
+  </body>
+</html>
