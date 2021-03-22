@@ -45,4 +45,5 @@ form button {
   padding: 10px;
   border: none;
   width: 100px;
+  cursor: pointer;
 }
