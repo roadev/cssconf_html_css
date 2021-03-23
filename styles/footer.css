@@ -4,6 +4,14 @@ footer {
   text-align: center;
 }
 
+.footer-container {
+  display: block;
+}
+
+.social, .contributors {
+  display: inline;
+}
+
 .social img {
   vertical-align: middle;
   height: 20px;
