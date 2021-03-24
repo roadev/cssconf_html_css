@@ -12,24 +12,24 @@ main h3 {
   font-size: 24px;
 }
 
-.projects img {
+.projects__img {
   height: 100px;
   width: 100px;
   margin-right: 20px;
 }
 
-.projects div {
+.projects__container {
   display: inline-block;
 }
 
-form {
+.form {
   padding: 20px;
   border: 1px solid #AAAAAA;
   width: 600px;
   margin: 40px auto;
 }
 
-form input {
+.form__input {
   box-sizing: border-box;
   display: block;
   margin-bottom: 20px;
@@ -37,7 +37,7 @@ form input {
   height: 30px;
 }
 
-form button {
+.form__button {
   font-size: 18px;
   font-weight: bold;
   background-color: #3D9970;
