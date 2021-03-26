@@ -19,7 +19,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.highlight {
+.title__highlight {
   font-weight: lighter;
   text-transform: uppercase;
 }

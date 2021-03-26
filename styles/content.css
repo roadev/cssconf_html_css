@@ -1,14 +1,14 @@
-main {
+.main {
   max-width: 1000px;
   margin: auto;
 }
 
-main h2 {
+.title {
   font-size: 18px;
   color: #AAAAAA;
 }
 
-main h3 {
+.session__title {
   font-size: 24px;
 }
 
